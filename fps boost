@@ -10,6 +10,6 @@ end
 -- Thông báo hoàn tất
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Texture Removed!",
-    Text = "Tất cả texture đã bị xóa, chỉ còn lại màu gốc.",
+    Text = "Tăng FPS thành công!.",
     Duration = 5
 })
