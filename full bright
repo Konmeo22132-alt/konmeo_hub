@@ -1,0 +1,15 @@
+local Lighting = game:GetService("Lighting")
+
+-- Thiết lập ánh sáng tối đa
+Lighting.Brightness = 5
+Lighting.ClockTime = 12
+Lighting.FogEnd = 100000
+Lighting.GlobalShadows = false
+
+-- Tự động cập nhật nếu Lighting bị thay đổi
+Lighting.Changed:Connect(function()
+    Lighting.Brightness = 5
+    Lighting.ClockTime = 12
+    Lighting.FogEnd = 100000
+    Lighting.GlobalShadows = false
+end)
