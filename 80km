@@ -1,0 +1,17 @@
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+local function teleportPlayer()
+    if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+        player.Character.HumanoidRootPart.CFrame = CFrame.new(-346, -69, -49060)
+    end
+end
+
+-- Chờ nhân vật tải xong rồi mới dịch chuyển
+if player.Character then
+    teleportPlayer()
+end
+
+player.CharacterAdded:Connect(function()
+    teleportPlayer()
+end)
