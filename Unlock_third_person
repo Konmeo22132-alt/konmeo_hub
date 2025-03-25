@@ -1,0 +1,16 @@
+local player = game.Players.LocalPlayer
+local camera = game.Workspace.CurrentCamera
+
+local function unlockThirdPerson()
+    if player.CameraMode == Enum.CameraMode.LockFirstPerson then
+        player.CameraMode = Enum.CameraMode.Classic -- Mở khóa góc nhìn
+        camera.CameraSubject = player.Character:FindFirstChild("Humanoid")
+        print("Góc nhìn thứ ba đã được mở khóa!")
+    end
+end
+
+-- **Thực hiện ngay khi chạy script**
+unlockThirdPerson()
+
+-- **Theo dõi nếu game cố khóa lại**
+player:GetPropertyChangedSignal("CameraMode"):Connect(unlockThirdPerson)
