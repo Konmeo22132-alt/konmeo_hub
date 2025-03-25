@@ -1,0 +1,69 @@
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local localPlayer = Players.LocalPlayer
+
+-- Hàm tạo ESP cho người chơi
+local function createESP(player)
+    if player == localPlayer then return end -- Không hiển thị bản thân
+
+    player.CharacterAdded:Connect(function(character)
+        task.wait(1) -- Chờ nhân vật load tránh lỗi
+        local humanoid = character:FindFirstChildOfClass("Humanoid")
+        local head = character:FindFirstChild("Head")
+
+        if humanoid and head then
+            -- Tạo Highlight (Viền trắng)
+            local highlight = Instance.new("Highlight")
+            highlight.Adornee = character
+            highlight.FillTransparency = 1 -- Chỉ hiển thị viền
+            highlight.OutlineColor = Color3.fromRGB(255, 255, 255) -- Màu viền trắng
+            highlight.Parent = character
+
+            -- Tạo BillboardGui hiển thị HP
+            local billboard = Instance.new("BillboardGui")
+            billboard.Adornee = head
+            billboard.Size = UDim2.new(5, 0, 1, 0)
+            billboard.StudsOffset = Vector3.new(0, 2, 0) -- Hiển thị trên đầu
+            billboard.AlwaysOnTop = true
+            billboard.LightInfluence = 0 -- Giúp hiển thị xuyên tường
+            billboard.MaxDistance = math.huge -- Không giới hạn khoảng cách nhìn thấy
+            billboard.Parent = head
+
+            local hpLabel = Instance.new("TextLabel")
+            hpLabel.Size = UDim2.new(1, 0, 1, 0)
+            hpLabel.BackgroundTransparency = 1
+            hpLabel.TextColor3 = Color3.fromRGB(255, 255, 255) -- Màu trắng
+            hpLabel.Font = Enum.Font.SourceSansBold
+            hpLabel.TextScaled = true
+            hpLabel.TextStrokeTransparency = 0.5 -- Viền chữ
+            hpLabel.Parent = billboard
+
+            -- Cập nhật HP theo thời gian thực
+            local updateConnection
+            updateConnection = RunService.RenderStepped:Connect(function()
+                if character and humanoid and humanoid.Health > 0 then
+                    hpLabel.Text = string.format("%d/%d HP", math.floor(humanoid.Health), humanoid.MaxHealth)
+                else
+                    highlight:Destroy()
+                    billboard:Destroy()
+                    updateConnection:Disconnect()
+                end
+            end)
+        end
+    end)
+
+    -- Nếu nhân vật đã tồn tại, tạo ESP ngay lập tức
+    if player.Character then
+        task.spawn(function()
+            createESP(player)
+        end)
+    end
+end
+
+-- Áp dụng ESP cho tất cả người chơi
+for _, player in pairs(Players:GetPlayers()) do
+    createESP(player)
+end
+
+-- Áp dụng ESP cho người chơi mới vào
+Players.PlayerAdded:Connect(createESP)
