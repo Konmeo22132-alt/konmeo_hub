@@ -1,0 +1,65 @@
+local RunService = game:GetService("RunService")
+local EnemiesFolder = workspace:FindFirstChild("Enemies")
+
+if not EnemiesFolder then
+    warn("Không tìm thấy folder 'Enemies' trong workspace!")
+    return
+end
+
+-- Hàm tạo ESP cho từng NPC
+local function createESP(npc)
+    if not npc:FindFirstChild("Humanoid") or not npc:FindFirstChild("HumanoidRootPart") then
+        return
+    end
+
+    -- **Viền đỏ quanh cơ thể**
+    for _, part in ipairs(npc:GetChildren()) do
+        if part:IsA("BasePart") then
+            local highlight = Instance.new("Highlight")
+            highlight.Parent = part
+            highlight.Adornee = part
+            highlight.FillColor = Color3.fromRGB(255, 0, 0) -- Màu đỏ nhạt
+            highlight.FillTransparency = 0.7 
+            highlight.OutlineColor = Color3.fromRGB(255, 0, 0) -- Viền đỏ
+            highlight.OutlineTransparency = 0
+        end
+    end
+
+    -- **Dòng chữ HP màu đỏ xuyên tường**
+    local billboard = Instance.new("BillboardGui")
+    billboard.Parent = npc:FindFirstChild("HumanoidRootPart")
+    billboard.Size = UDim2.new(5, 0, 1, 0)
+    billboard.StudsOffset = Vector3.new(0, 3, 0)
+    billboard.AlwaysOnTop = true
+
+    local textLabel = Instance.new("TextLabel")
+    textLabel.Parent = billboard
+    textLabel.Size = UDim2.new(1, 0, 1, 0)
+    textLabel.BackgroundTransparency = 1
+    textLabel.TextColor3 = Color3.fromRGB(255, 0, 0) -- Màu đỏ
+    textLabel.Font = Enum.Font.SourceSansBold
+    textLabel.TextScaled = true
+
+    -- **Cập nhật máu liên tục**
+    local humanoid = npc:FindFirstChild("Humanoid")
+    RunService.RenderStepped:Connect(function()
+        if humanoid and humanoid.Parent then
+            textLabel.Text = humanoid.Health .. " / " .. humanoid.MaxHealth .. " HP"
+        end
+    end)
+end
+
+-- **Thêm ESP cho tất cả kẻ địch có sẵn**
+for _, npc in ipairs(EnemiesFolder:GetChildren()) do
+    if npc:IsA("Model") then
+        createESP(npc)
+    end
+end
+
+-- **Tự động ESP kẻ địch mới spawn**
+EnemiesFolder.ChildAdded:Connect(function(npc)
+    if npc:IsA("Model") then
+        wait(1) -- Chờ model load đầy đủ
+        createESP(npc)
+    end
+end)
