@@ -1,1 +1,217 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _ZmFd_TwUKISr = a; end)); return(function(h,...)local t;local f;local b;local d;local a;local l;local e=24915;local n=0;local s={};while n<447 do n=n+1;while n<0x2f8 and e%0x4a12<0x2509 do n=n+1 e=(e-627)%14302 local r=n+e if(e%0x4458)<=0x222c then e=(e+0x38)%0x16c7 while n<0x138 and e%0x3186<0x18c3 do n=n+1 e=(e*57)%19342 local t=n+e if(e%0x87a)>0x43d then e=(e*0x313)%0x90d local e=79467 if not s[e]then s[e]=0x1 d=getfenv and getfenv();end elseif e%2~=0 then e=(e+0x3c7)%0x3bb1 local e=58849 if not s[e]then s[e]=0x1 l=string;end else e=(e-0x19b)%0xa943 n=n+1 local e=41365 if not s[e]then s[e]=0x1 d=(not d)and _ENV or d;end end end elseif e%2~=0 then e=(e*0x2b1)%0x9bc while n<0x181 and e%0x3a08<0x1d04 do n=n+1 e=(e*801)%224 local d=n+e if(e%0x149a)>=0xa4d then e=(e+0x273)%0xd30 local e=48273 if not s[e]then s[e]=0x1 end elseif e%2~=0 then e=(e*0x293)%0x8ff2 local e=63038 if not s[e]then s[e]=0x1 a={};end else e=(e+0x14c)%0xffe n=n+1 local e=99356 if not s[e]then s[e]=0x1 end end end else e=(e-0x20e)%0x2cb3 n=n+1 while n<0x1f5 and e%0x3cb4<0x1e5a do n=n+1 e=(e-175)%32229 local r=n+e if(e%0x4bd4)>=0x25ea then e=(e*0x23e)%0x736c local e=25060 if not s[e]then s[e]=0x1 t=function(s)local e=0x01 local function n(n)e=e+n return s:sub(e-n,e-0x01)end while true do local s=n(0x01)if(s=="\5")then break end local e=l.byte(n(0x01))local e=n(e)if s=="\2"then e=a.EeuDFsDv(e)elseif s=="\3"then e=e~="\0"elseif s=="\6"then d[e]=function(n,e)return h(8,nil,h,e,n)end elseif s=="\4"then e=d[e]elseif s=="\0"then e=d[e][n(l.byte(n(0x01)))];end local n=n(0x08)a[n]=e end end end elseif e%2~=0 then e=(e*0x2fa)%0x75ce local e=90334 if not s[e]then s[e]=0x1 f="\4\8\116\111\110\117\109\98\101\114\69\101\117\68\70\115\68\118\0\6\115\116\114\105\110\103\4\99\104\97\114\105\108\121\95\90\107\67\66\0\6\115\116\114\105\110\103\3\115\117\98\100\73\113\121\100\72\106\119\0\6\115\116\114\105\110\103\4\98\121\116\101\108\86\120\101\95\107\121\75\0\5\116\97\98\108\101\6\99\111\110\99\97\116\114\77\90\80\102\112\71\115\0\5\116\97\98\108\101\6\105\110\115\101\114\116\120\109\106\84\117\105\71\71\5";end else e=(e*0x1c1)%0x4114 n=n+1 local e=17619 if not s[e]then s[e]=0x1 b=tonumber;end end end end end e=(e*290)%16991 end t(f);local e={};for n=0x0,0xff do local s=a.ily_ZkCB(n);e[n]=s;e[s]=n;end local function r(n)return e[n];end local l=(function(f,l)local h,s=0x01,0x10 local n={{},{},{}}local d=-0x01 local e=0x01 local t=f while true do n[0x03][a.dIqydHjw(l,e,(function()e=h+e return e-0x01 end)())]=(function()d=d+0x01 return d end)()if d==(0x0f)then d=""s=0x000 break end end local d=#l while e<d+0x01 do n[0x02][s]=a.dIqydHjw(l,e,(function()e=h+e return e-0x01 end)())s=s+0x01 if s%0x02==0x00 then s=0x00 a.xmjTuiGG(n[0x01],(r((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+t)%0x100)));t=f+t;end end return a.rMZPfpGs(n[0x01])end);t(l(198,"uqs_MVJm-A4{P3<0_0"));t(l(23,"Bb#x%FJ-vcTqA{;W;c{v#;bvWW{WA{TWxF-;-vFc%F(cW#_-;WqATTTb-ADTW%%v#%=qWW;v{JT2-cJ-JT%xx;:WT;cq;W{TqTTvc--TJWx-xJWJ9;A{qWF%%xccvxJT%TxvbTTbW#AWAqTxcbJ#F{Fx#b#{;#WA{{FT%-cc-J-#%W{F#F&JW>;AA{T{-#-W-qFJ#FW;WJc#vx{xT;TJvvJcJbx-xxlcWx;JAvqcv%Jx-Ax%xb#cW-cvv%qAq%cqcF-cJF=WHvb%;c;vq;AcTJvFbbWTFJ#cbT?;W#{WTqTWv{FJ%qF:A{qF{J;cqJA#q#v{FT%%#J{#qWb%Wv;FAWqJcJv%JJFv%x3;bqWAqJTxv{x,b;-J%AxJ#cDqcF;{AWqTc%-W-e%Jb{bcbbWbq{AWT-xT#F-{FW%T#%lW5oqWA{TFv%--%;xJ#cATq%pvWx{xAbqj--F&Jxxxx#.qWT;c-bFAq#v{-{FW%J%s#FW{{-{FTWqbvYJFW{;TxAbcbFW#-vA#qbc{vJ-##;#%bA;-{xq-T;qWxJ"));local e=(-4705+(function()local d,s=0,1;(function(n,e)e(e(e,n),n(e,n and e))end)(function(e,n)if d>469 then return n end d=d+1 s=(s+747)%18087 if(s%1040)>=520 then return n else return e(n(e,e),e(e,n))end return n(e(e,n),e(n,e))end,function(n,e)if d>312 then return n end d=d+1 s=(s-957)%17708 if(s%1146)>573 then s=(s-325)%29895 return e else return e(e(e,e),n(n,n))end return n(n(e and n,e),e(e,n and e)and n(e,n and n))end)return s;end)())local le=(getfenv)or(function()return _ENV end);local o=a.AfUKUCBL or a.XFYh_BkZ;local d=2;local f=4;local g=1;local t=3;local function te(k,...)local c=l(e,"hJsV;^R#4H{)K/=<#R#R)J=KsHRKH//4JVH)={s<R;HJ/=J=;<H^/4H=<4Js;/44JH^<{^//JV8{H?K^J;<RV=RK/HV#R){R/KJK^_;;/VZsV{VSH==HVVR^{#=R/)JR^JRZ=//;o<;{=/V;R<{R=;=RJR^JK<<H;{VK)w=/VVRs{{/ssv^H4RK=<{;J#))K=4sKR/Rs/sJH^s;<)<<#;RR<)R=;sKRRH)/#/4VH444#=#V^R<K9{=JssHRJ/< /;HHJ44<KV;R){H<V={RVHs/^J^JJ#sKJ=^JV;/)=/^=KsVHK=6-#=Vs^^#HsK/;H)J=#sR^^{V/VJ;;=J/R#HJKK7#4V=Rs^JVHP/4J4F#4RK;<VVRsR{;//s;J)s<#R{V/=JH{J<4V4R={/=;V%^RR=/KJR^J4#KJH,=;3;V<#{<=^=HJ4RO)^J4;Ks{/<>sV{)/{s/^J4<4^8s^2#/#/{KV(RR{_{J/V<gs<R;H</{RV)<<<s<R#{^#{)s=/s4RVH=/HJ;;<4K/JWEV)#R<{^{4{/J}<;{#4)J</s<R;)V##){=)sRRJk4;R#V)J<)V##&{s=sJR=Ks{RUH)/RR^)^<)s=RsV{4V{==Hs;);D/V{4sH;<;VJ#J{)K^Js^{HHK#<KVHJJ;/4^Ku<)4J/Rs^=Hs^^/H4/V^R)==RKJQ^V^#2{)sKHRK4_V<sR<){=Ks^RJ{4#J)^=^sY^)/H;(#KK>K/ss#J#</#J#;<sJRLH^/SU)4H<*s=R^H#/<{{<JJ=^HH;JJ4VR^=)s{R;H=/JJRJ;;<4HKRtaE);{#<){<^4V/<J4^n4#)KH;<)Q4;V#=sJR4{V/{J4J{;{4^</V^#^{/{{J)^4HK//tH^J;4KV<^V<V^#s{=={s)R^HK/Rz/4;)Hr4<#RH{^/KJ{J=H=K4x);H4)^^H{KHO;V<KRs;^V4K/sKJ;K4V)V%Rs/#^; )=);=<s{)M*^^;^+#J<#VR#f{{//sssy^)H^/sBKV^#4i;V^#R^K/{JV^);4/4JJV=V;KV<ss{sq{#/<J<^#VJ/RlK<4#{)V</=;R{H<==/Kn)4</^)KV<##)H<4VRJ={R/HK<;);^KKb{;{V{;=HsKs</V4)KJK^<4^K)AVVHVL)R=)V{</V4#;);=4sV^==RV^#{{</HsJ^/V44{{K=#ss{{U#;s#KHK=Hss^H44=;J/;<4<KVM{J{#R{K=#sVR##^=VJ=^#ssRsHR/JjK{/<;sKR^4^)^=)=^J<^KHH/78);RK<J/R;H#R<{K=VJ=^H/<V;4V)44s)<<RVJRK<{;)H#)/H^<^:H;;#<p=^/HH/=KR;#4^KV<#=/#<{;<J/HR;{J/HJH;^#=K{<RVIs#)H=RsK^);=)RJV;=44{4<^s=sRH#{<)H</s/R4{VVJ4/KR<=V^R{4V={ssR9H=RHKJ//J4^V/sA=;^4VH{E#VJ#;)s<;<KR{H^/<JJ^VHsHH=J+<#^);==s4^){2)=<HVV#2{{)^CJsHR;H<J/4;K}<;s)R^^K=)sJA/R)K<w#;H#R)==)V#R;V/#=)J=Ks#)R6s;;#4)=<4VR#VVK4s)x=)sRKQ<R;;^4)J=#J##^4=)<<4V/H#Rs{l/RJJ;KK{VJRH{#=^)J=Hs;^<H{/^J,HHKRKVCRV##s{/VV44/#)Hs#44)/<Hs^R4V4#H{K=#ss{Y<HV<#{{)=^ssR^V#H<{)=RsJK;B);R#/4s)s=/#_{)=R/4^#4<)/bs;v4;#^=^sKR^RsK<JK^#4;K=K;F<#;{{)==/sHRV{^/)J^;<4<K{BVV<#/)4<>s#VV#R{#=sJ/H)%s;&#){H=ss=;}H^=;{4bKJK^#HsJV^4HRH=J)RVH=//JH66;V{HkPVHRKRs/<s;RsHJ/;K;;s#)KVI;=)#4{R<ssR^<Hs44J#;VHJK4b;VKR{RHH))4<^sKR#{s;;#HKF<VK)u/V<#{)^V;H{/;gs^E#K#s<{s/e^;##H);=<R)KHZ;J/4)K^EuVR#PV<#=)V==sH{#k=;R4;Ks)=K4a{VK##)sV44//K<J^s4#KV=<Vsls;^#R)J=KR=K#JJs)#4K9<<s/RsH<##)#=)sRRJ=;;)4R)/K<s4#sV)#<{<={s^K)p{;;#=)J<R<;s<RH{R=?=Ks;^<H{/^JO;){{IJ<=VK#s{/=4RKK)<{V)#;;KHsKa<)VR)<J)^)4)KV8JVRR<)/=/s=R4{4#s)R=RsJ^K/)V#4%{)<^s#RH{4/4JH^VsV^)HR/JqK;#RssKV4V^#^{H=;J<{^<{;H^#{<=<s#<#{;R/{4=VJ=HRH;K<W{;R4.))<R;V4H{#=sJ/#VHVK=IH^R4;){<^V HJ{R=JJK#/{KK/t4;V4;)H<^s<4){^=;VK^RHJKK9/;s#=)4<#;<RH{;/<sJ^^HJK)kR4%#K)#<ss=R4{V/=s)^=4<K{P^;)#))R<JV=RK{s/=J44J4=KH(;^<Hs)^<Js)R#{JJQJ#R;HKK4+RV=#K);=<s{R^)#/)J#^J4<K#3sV/#4)^==sHR;H</{J#^D4)/RBJVK##)V=/sHRV)x=<J;;<4{KR1OV)#R)Jsrs#RVH//4JV^}4HK;#sV{##)t=)sRRVHK2#ss;/4{KVb{VHH#{<J{sKROH//RJ^;KH{KsU/;)#V{<=HVV^<HK/^JC^;4RKV<KV##s)V=4^V#;HH/RD<#K4^/H<)RR4){K=HssRHH4<KF=#H</)<<KV^{H{)</sJ4K=s/sW<;4)=)=T=V;R<)J=^sV^)H#/J}K;#H;K/<4V#R=/==;J<^{H^=WB);H4JKk<#VVR/)4VsJ=^)H;==q{;44l))JKVJR<{#=sJ/^KHV<=sV;;4s){s/VN4;{RJJsK^#H^K/V;;V4T)Hs;;^R{{4=:s^^R{HKKV#^{#/))<VV<RHK4/<s{R#HOK/uR;H#K){<sV/#s{V/<JHRs4<KKz^; /;)R<JsKRH{s/<J4R^HHKHb^V<4_)^<ms)RR)V/KJH^s4/K46HV={H)/=<sKR^/#/);J^J4K/=Gs;5#4)^==sHR;)J=KJ^^;4)==rJVK##K;</s4R4H=YJJ;;<4{K^?)V)#H)J<Js#RVH/=4Rs;=4)K;J<V{#4)}</4<RJH</#;V;/44KVJ=;;#;)s={s4R*)#/RsVRs4#KR</R=#V{==HVR#HH{/{J.4J4RKJ<K;H4s{/==sVH;HH/;m<;{{JKE<=VR##{K=HssR/)s/VJ:;H{))<</V^{ns;=RsV^K{H/ssR;4)VJ)<HVRR<)==^V/^){4=)QK;{4s==<4VVR=KH<4J<^/H^/Vm)Rs4JK=</Vs#J{4J/J=^HH;=JJK;^4^))<<VJRK{#<;s^^4HHK=Js;;#<){<^;#R){H=Jss^#H;K/J4Hs#=))<;^JR{{4=DJ)#<HJK/d#;;#/)H<V;6R){;=>J{R<H K)7R;JH4)#<;s/R4{V/<JH4;HVK{N#;EHH)RJRsKR#{4//JH^VHnKHDRV<4K/J<Es/RR))/KJ#^s4//sLV;J#H);=<s)R^/L^;JR^;4K=^Xs^V#4)VsHsHRRH</KJ^^s4)/4+HVK#{)sJ)s4RVH=<Hs;;<4/K^2VV){H)J<=sHRs{s/4s0;=4HK;<<;/#^)V=)s)RJH=/#J;R/44K#<=V<#;{<={s)#/H)/)JJ;=4#KV</VH#V{=sJs;^<H{/HJX;)4R/VVsV##4{/J4sV^=HH/;JV;{4KK6<KVR#J{K=#s<^/{F/V2=;H4R)<s{;R#I)V=RV<^KKR/sJVR^4VK#<HV;R<{)=^sJ^)HRjH:K;#4sKs<4VVR=)Hs4J<RsH^<{q);<4J)K<=Vs#V{4=)J=^{H;=JJs;^4R))sRVJRK{#=ss4^4H{K=I);;#<){<^;#R){==JJK^#H;K/V4^4#=KJ<;;/R{)^=+J/#RHJ/^d#;R#/)4<VV={/{;=#J{#<HA/;_R;JH#)#<4s/#M{V/<JHRRHsK{5);E{))R<JsKR#{R//J<^VH8KHI;V<#{/s<1VVRR{J/KJH^s)/=V}V;R#H/s=<s<R^{s<)JR^{4KKKWsV/#4KVVssHRKH<-;J^^H4)KRa{VK#/)s<^s4R;H==)J<;<HgK^V8V)#R)J=KsHRs{;/4J^;=4HK;<<^;#^)4=)sRRJH=/#;s^L44K)<=^##;)R={s#4YH)/<JJ;/4#Ks</;4)#{=<Js;4HH{/=J2;)H^KJrsV##{{/=HsV#gH</;J^;{)^Ky<)VR#JKV=#sH^/H{/V9=;H4;/V<{V/#b{)=RsV^KK#=KW/^l4V/K<HRJR<{Ka^s%R;HR/;bK;#4sK/#^VV#R{H6=J<RVH^/3s^;R4#)K<<VsR={4=Vs#^HH;K<8);^4!))</VJRK{#=sJ/^4HVK=bK;;#<){<^#pR){R=JJK^#HsK/c4{;#=)H<;V%R{{R=AJ)H^HJKK_#;V#/)4<Vs=RH{;/<J=^^HbK)84HR#K)#<sH^/KJ#;=4K4=)=<H##{J<s=;^4H^/)W{^s#{K4qJs=#R{s=HsVR;H?/;J^9{#{KJ<{<#;={/=#sJ^;HHH#/sTK;H4V)Hs4R=)J{#J=^/H#/J!;;H#;)4Cgs4V}{=/KJ4R,^#K)MVV{#4Ks)HVsRJ{;=;=.^^H^K4<K;s44))<HKR.VV{#^)i^s4#K=LJ/HJK;/44KVR{{4/^JV^/HH/su;;;#4;=4=Ks</V4))ss^/H;{R<<;HJi^V4RKJ<K;H=;{/=4sVRJHH/;l<^KH=KQ<KVR#V{K=#ss#/HK/VX<;H4^)<<=V^4s{==Rs;^KH4/sS/;44VKJ<HV^R<{/=^sA^)HR/KQK;#4s)/<4V^R={H<HJ<^{H^/J:);#4J)KVRVsR/{4=;J=^HH;K<+{;^4Zm7<RVJRK{H<sJ/^4HVJ*R{{#={sJR#H<=pJ;;^^<KR<=VK#{#R4>KV<;s<R{<H;^HVK{=;s<R4{==sJK<^VsRH{;/<^<KVS^V4P4;4#K)#<sHV/{Js;)R)H)/JK)6^;s4R)R<JsK))+#^^4K{{6fs{#;{</<JH<V^=HH/;j<;{4^#4,#Q^;J#H);=<H4K{J#/=K=R<JJ)s^V<^VR<s<J<RVDR){R=JJK##T^TV;9##)s=/#)KKJ4V=J#;<4{K^lwV)#R{Js)sHRKH//4JV{s==VK#V#K={s;^<H^K<H=//Js;/44JV^<{)/HJ/^=s#R#H)/RJJHK<VsV#RH/=^sJ=)s4^<H{/^R;)&<=V^<=;s#s{/=4R<K/<KV^#)H{<JsJ#;H)=V{<4J))<RVJRK{#=sKVKJt4V^#D{)VHHr/JPHV^#sH)=;sKRK#R/=JR;Hss^<HR/JxKH^=Vs{^/V^#{{H=;J<H/x;;s#H{)<VB=^4HR/RJ/^Rsb^/H;K<+{4)=<sHR{VV#D{#=sJ/{;<4V;#/;#!;{^;R=44Hs)KK^)^HH)K/k4;VKss4RsH%/=d{s#HG)<H;VsR/{4=VJ=^HJK{4{##H)V==sHR;H<={))){^4HVK=cH;;#<s{K=K/V4#V{==Hs;^<V{=J=DJ4^V4=KH2;J<=H<^<sVsRR{J/KR/))8dVJR^{{/=)#=<s{R^{(/)HR{<KKKHc=V/#4)V;^4{K/JVsY4;KsK=s=R{{4/));<Rs4RVH=sH4-)}jVs{#s4s=)J{==VJRsH//4R#)V0JV4;s{H=JJ<^/^HR;^;<^H#V4/H#){K#4#RK^={s^R3//V##;)#==V;RK{/=JJsV/HRKwe4;44a{K<4sRR{H{=){<<JsV^=HHs4#;Ks<HXK^KH4/RJ4=Hs#^/H4/V^;))=^sK^<V##K{)=RsJsSs#H^K%)R={=/VK{p/=J/;{sVJ=4)<HR4/R;;{sV#VRR={H=;J<^{H^{b;{;44{)K<#Vs)JJ#^J#<K/<H=<##{{4V==sHR;H</{J^=BH#H^/KSH;;#<Y=^{{4/<<=ss44Kp<HV)#^{4=Ks/<RV^R{{^=(^=K^</V)#H#^#<)K<Vs=RHJ4;D4/K0Hs<=bR;J#KT)^{4=/R1=^JVH){<=VKs^)^==J<^<HV4#q<^RV4KR<JV)R/{<==/RJ94;/^JR<K#{)V<)=4R#{/=#J^RV4<4^1/;9VR)H<JVHR####))V==sHR;H</{J^^(4//7eJVK##!^^KH//^:JV=R#)_<4V49s;V#R)J=K#k/SJ6;K#;)K=KsHzJ;J#^)A=)RH/kS{;^##)k<KK^7sVH#;{<V<RHKHF4/4J^;K4#KsR;HH= JV=)sK^<H{/^R6){<Hs{#t{A=JJ)=))/<#VsR/{4=V;=<<<=<HRR/;;V)JJ<4^Js:<;{4#)<<{V^#W{)=R%JH)H{H</HJ;;<4{K^Q4{={/#<)H<;s<R{{^ucKJK8HsKKa#;s#/)4VV/;/sJ*;R4J)KR{{sK=J<^JsrRsH;K<-{H4=Vs/^)HR/{==^#4R^{=<K=2H;;/Vss^{{V/;1)^R4=)KKK=/#V)s=KsR^HH=#;=#;J4HKJK)=KV##^)k=Ks;RRH)/HJ^^p#^)4J4;4RJ)=<4;Y#4HJ{/ss4sK#<sVH##{;)^/R^KH)/^&<;s4#4^K(<{V##J4;W4^^H//KgR;=^J#s<JVJ#R{J=4sR^V^4KKb#0{#=KR<{sKR){//H)^<VsHR;H<s<^H)H<4<4nV;/##)s=/#^/sJV;K#HHJ<<VH#;{{=;=ss<HVK)-t;VJ^^R4HK;<<4<)=<V^{H4K<dJ;HJ;^V44KV<=#{/#sV^VH)K^H)<)Js;K4#/;^4V4#V{=J<s;^<H{<^ss;)4RKJ<KV#4J{/f4s#^=HH/;q<;{HRKvx/^V#J{/=#^^^/H4/Vs=RV4;Kq<{VR#2)V=RVVRKH#/;%/444V)=<HV;4H{{=Rsn^/HR/V_K##<))/<HVV4s{H</J<#{PJ/ff/;R4J)KJ4Vs#<)^=Vss^H)RK<M{;^4aK^<RVVRK{)=sJ<^4{VK<0H;^#<K4<^VsR))4=VJK^HHs}M*4;V#=/H<{s<RK{^=sJ)^=HJ/=J#;s4W)4J{s=RH{;/<#V^^HsK)F4;J#=)#p;;HR4{R/=^)^;4<K{s^;##))H<Js<R#{{//s{^=4=K/a;^K#{)^<1V/#V{J=JJ#4V4/K4IV^_4{);<^s{{V{q/)JRRVH#K#PHV/{H)V==sHR;)H/{J4^_HsKRiVVK4#:J=/s{RV{H/HJ#;<HK=J3.V=#R<V=Ks#Rs)/=)JV^J4HK#<<;s#^Ksk;sRR^HK(5Js;/44/^JJVH#H{<J)s^R,H)=4s);K4/Ks.RV4#V{=<)V=^<{J/^;J;)4RKJ<K;V#s)T=4s{^=H)/;J<HH4^Ks<)R/#J{<=#V;KRH4/R3=##4;)<<{^^#){)=HsJ^<H#/R&/^{H4)=</V;4/{{=^syR/)s/JJJ;#{O)/<4VV4c{K=;s^^{)V/Sy);R4J/;<#V^R/{==VsT^H{;/H7{;#49)K<RV;RK/#^)J/^{HVJVjH#=#<K{;RVTR/{R=<JK^4Hs/<JK;V4J)Hs#s<R{{^iUV4^RH;KKx{;s4^)4U^VVRH{4/<^=^^H7K):R;V#K){<ss<R4{^/=s)R{4<K=8^#^#))R<J;K4J{s=JJ4^#4=/J(;^J/s)^<^s){V{J/KJ#R;=#K4LHV={{);=<s{R^) /)J{^JHsK#n;V/44)H==sKR;);/{JH^.H)K4yJV<##K*=/s{RV)U=/J;^V4{<4x3V)#R/J=/s#RRH//KJV^R4H/R-KV{#{)jJssRRJHK/#R);/4KKV3:VH#R{<<K;JRi{&/R^V;K4#KsJ/V/#V)V=HsH^<{s/^ssR;4RK#<K^J#s{/=4V^#^HH/)D<#)4^Kb<);4#V{K=<ss##H4/VA=^){,)<dVV^{J{)=RsJ^K)s/sJs;44K)=<)V;#<<H=^s;^){J/JJJ;#H;/H<4V4R==)=;J<^{)^/=d);)4JKJ<#V{R/){p3J=^<H;=JQ{;^4IK/CVVJ#V{#JVJ/^4HV=BsJ;;4#){E#VUR){R<VVs^#H)K/VH;V#=)H<;V/R{{{=Bs;^RHVKKJ#HJ#/)K<VR^RH{H/<sK)=H_/7&RR<#K)#<s;/#6{V=VJH^H4<K=*^^s#=)R<#sKH4{s//J4R^HVKH5)V<{))^<xs)#4);/KJ<^s)=K4oVV=#H)R=<s<R^{4/)J4^JHK=sas;J#4);==s=R;K<^VJ^^;4)=)EJ#H##KsV=s4R#H==#J;^J4{/#J9V)#))JJ<s#RsH/<4s4;=4=K;+;V{#/)Q</s{RJ{s/#^R;/44KV<=;=#;);={s#RyH//RsV^<4#K4</R/#V{==H;;RHH{/)J+^J4RKH<K;HK{{/=<sVH)HH/;p<^K/<KU0VVR{s{K=#ss^/H=/VJ;;H4K)<<KV^4Z)K=RsR^K{K/sJV;4HV/{<HVHR<)4=^s;^){4/;BK;/4s<9<4VVR=KH</J<RcH^/R1);=4JK=N<Vs#;{4EHJ=^HH;K<RV;^4R))<4VJR={#<;VH^4H{K=;);;#<){J^VJR){/=JsV^#H{K/J{;K#=KJ<;V)R{{^=ds/R/HJ/^.##V#/)4<V;:#V{;=HJ{4/HxK)WR^V4e)#</s/HH{V/=JH^;{2K{%K;j4R)R<VsK##<J//J=^VHHKH9)V<{{Js<yVJRR)J/K;#^sH<=stV;^#H=s=<s{R^K-=;JR^44KK=gs;J#4K^<^sHRKH<<4J^^?4)/4JoVK4r)sg)s4RVH==)s=;<H;K^J=V)#R)J=KV)Rs{;/4J/;=4)K;n<4H#^)R=);HRJ{V/#s;Ri44K{<=VK#;{<={;^#{H)//JJ^V4#/4</^44<{=<Ys;RRH{=4J_^)4{KJ%sV#44{/=<sV4={s/;J^;{4#KDV^VR{J)/=#s4^/)//VJ{;H);KK<{V)#j)J=R^)^K{#sVe/;=4VKK<HV4R<)K<Bs+RsHR+;GK;#4s//JVVV#^{H=)J<RsH^=sJ#;R4H)KJ/VsR/{4=Vs;^HH)K<aK;^4s))64VVRK{<=s^<^4HVK=sH^R#<Ks<^V4R){==Js={<Hs/R74;/#=)H<;;JKs{^={J)4#HJKKO#^;4/)4<=s={;{;/<J{R#{;K)Js;J{/)#<ss/R4)K/=sJ^;H)K{I#;84)Ks<JVVR#{///sv^V{(=J(;;##{<#<fs)RRKJ/<J#^{4//7 V;R#HKRe^s{R={6<RJR^J4K/H^{V/4s)VJ<sHR;H<=K;#^LHRKRs)VK##)s<<;sRV{{/H;^;<4{K^6DV=#R)H=KVVRsH</4sV;<4HK)<<#J#^)4=)^R#RHK/=Js^/44A;<=;)#K{<<ss^4=H)/RJJRK{VKs-^V4#){==/s;#J<s/^JH;){;KJ<KV#4;)H=4s/^=)#/;Q<;{H#/{<);J#JK{=#ss^/H4/;.=^J4;K{<{V##7))IssJRVH#<^T/^,4V/IJ8V;##{{=4sg^)HR<JJH;#4{)/7gVV4;{Hv;s)^{H//uJV;R)V)K1#4JR/{<=VV;^HHKK<V{{;4ZKs<RVVRK=J=s;/#sHV/^MH;{#<<;<^Rq47{R=4JK#KHs/Hj4^^4V)H<Ks<R/{^=MJ)#R{#KKA<;s4^)4s%s=4HKg/<ss^^H4K)J/;J4K)<<sV;R4/n/=sJ^;H<J)9^;##)K;<JVqR#);=/J4^)4=<KU;V<#{/^<{s)R={J=;J#^{4//{J<V=4s);<Ks{R^{L/)Vs^JH;K#M;V/#{)V3iV/R;{4/{^#^T4)KRsJV/##))=/VJRV{R/HsR{#4{K<5}^##R)J=KVH){H/=VJV#<4HK;<<;K4^)f<#sR4/HK/#Js^<H4KVS)VH{^{<={s^Rp{;/RJ{;KH;Ks<<V44V)^=HsK^<{^/^JH;)H4/{<K;E#s=<=4sV^=)H/HO<^V4^KH<)V=#J)=<;ssR#H4L< =;H4;/J^sV^#){)J#sJ^KH#=;V<;44<)=08V;R<{{<#V/^){V/JV/;#4s)/<4;_R=)s=;sK^{H#/YJ);=4JK;<#RHR/)J=V;=#VH;/#*{^^4(=V<R;V4R{#=)J/4RHVK=:HR;HJ){<=VQ#;{R=^JKRH={K/Js;VHK)H<;s<#K)J=gsR^R{<KKQ#;s4<){<VV{RHKs/<J{^^H:/sfR;{#KKV<ss<R4)V<^JH^K4<=/*^;H#)K4<^sK#y{s=DJ4^V4==HJRV<4V)^<Hs)#K{J<KVV^sHRK4FKV=4K);<<#HR^{4/)sK^JH^K#VsH{#4))==s)R;/H/{s#R/4)K<DJR{##)s=/;4#VH==sJ;^44{KHnz;/#/)J<Rs#4vH//4JVR.{RK;d{V{{R)p=)sR#V)&/#J=;/)HKV<=VH#;Ks={s=R!{#/RJV;KH#JJ</;a#V{<=Hs/^<{{sRJj^V4RK<<KV)#s)<A^sVR#HH1#W<;{4^=GT4VR#{{K<XssR^H4=^s^;H4=)<V=V^#M{)=RVH^K{A/sC<;44^)=Y)^*R<);=^^^^)HR/JsK^H4sK#<4V/R=)J=;VJ)sH^/)y)RV4J)K<#;;K#{4=<J=4{H;K<l{;^4J))OqVJ#4{#=;J/R4HKK=Js;;H;){<<Vb#){)=Js^^#{IK/Jo;VHrKV<;VHR{/4=wJ)^R)J/4X#;K#/Ks<VVRRH)R<RJ{RAH2/4GR;J#K)#;)s/#s{V=5JH^R4</KsJ;t4R)RVVsKR#{s</Vs^VHHKHt<V<4s)^3sVJRR{//KsD^s4/K4J^;s#HKJ=<^)R^{%/)s4^{4K/^}sRJ#4)V==V)R)H<=HJ^4J4)KRBJVK4=)s<4s4#sH=/)J;^</HK^U{V)4J)J<#s##;)H/4J=;=K)K;<<V{H^)J=)VJRJ{#/#J{;/H{/V<=;^#;K#={s^RI{//KJJ^H4#<V</V4#VKk<{s;R/H{m=J%;)4R/V(JV#4J{/JHsV^=HH/;J=;{HmKFw{VR#V{K<##J^/{s/V;^;H4<)<s{Hs#Y)^=RVJ^KKs/sJ<;H4VKH<HRsR<{{=^;}^KHR/K7K^s4sKJ<4;^#J{H<NJ<#4H^/i8)^4H4)K%;Vs4){4=VJ=R){+K<J4;^H=))<RVJRK)V=ss4^4{JK=});;4<XH<^V{R)KH=Js#^#{;/KL4;=#=)K<;s<R{K^<{J)RJHJ/#F#^4#//4<#s=#;{;={J{R4Hy/)JJ;J4R)#P4s/#V{V0=s#^;HHK{:#;()^)RUVV=R#{///;R^V4=KHs;;s#{Kg<EVRRR{^/KsH{{4//;CVR<#H);=<VK)H{1=4JR#J4KK#-s;<4R)V<KsH4sH</{J^^GHRKRrKVK4^)s=<s4#V)V/HJ=;<4)K^S)V){RKH=KVJRs)K/4J4;=)HKR<<;;#^<^=)RXRJ{K=kJs^#44/J<=V{#;KJ<Ks^R)H)SHJJ;K4#=s<<V4#={=<;s;R#H{=#sV;)HsKJ;LV##s{/=4V/^={;/;JJ;{4#KX_/;{#J)4=#^#^/H4/Vs=;=4;K)<{;J#Y)V=RVV#sH#/<0/R^4V)=<H;RK#{{<Vsr4KHR/JNK;#=K)/.;VV#K{H=RJ<R{<V/_JR;RHR)K+VVs#/){=VsH^H{sK<J;;^46/d<RV/RK{#=sJ/^4{^/=uH^J#<=H<^VBR)KR=)JKR;Hs/{q44s#=)<JJs<#4{^=sJ)^#HJK=j#;s)^)4<Vs=#J{;/<J{^^K4K)7R;J44)#<ss/R4f^/=sR^;HJK{:R;kH))#<JVHR#{{//^)^V{=;VW;;K#{Ks<,^<RR{#<HJ#RJ4/K4jVV<#H)#=<s{H/{q/)JR^/4KK#qsV/)b)V==sHRRH</{J^^EKVKR2JVK4J)s=/s4RVK</HsJ;<HHK^QJV)HR)s=KV;Rs{#/4^R;={HV=<<;##^)/=)^{RJ{s<;Js^K44K;<=V{#;)J={s^H4H)/RJJ;=4#Ks</V4{){==Hs;RHH{/^JO;)H=KJOHV#4J{/=HsV^=H{/;JK;{4^Kc<)VR#J)J=#VU^/H{/Vw=;H4;/J<{;s#j{/=Rss^KH#=< /^^4V)=<HV;R<{{<Rs%RHHR/)8K;#4s)/<KVV#){H=RJ<^)H^/t;{;R4J)K<4VsR/{4=RJ=^HH;/sv{;^4o)K<RVsR/{H=HJ/^4HVs;#s)#=4JKRJH^R){<=JJK^#Hs2/ 4;V#=)H<;s<R{{)JKJ)^RHJ/Bo#;V#/)H<VVs4{{;/<J{^HHwKKWR;^H/)#<ss/#k{V/<JH^;K<K{N^;j#K)R<JsKH#J)//J4^VHJKH6^V<#{<^<gs)RR{V/KJ#^s)/;JBVV=#H)#=<sKR^{ J{JR^J4KK4rsV/#4)V==sHR;{s/{J^^F4KK#cV;V##)s=/#=KKJJ;s#R))=<KRFcV)#))J=Ks#RsK^/4JV;=4HK;<<V{{^)K=)sRRJH=/#JV;/44/O<=VH#;)S={s^RXK)=VJJ;K4#K;</V)#V{=={s;^<H{/RJm;)4RKJ<KV##s)R=4sV^=HK/;k<;{4^Ko<)sRVA{=<^ss^/H4H#H=!KV#s/RJR;)VJ#^^H;KJ)#<{6<^;4V)=<H<4<<R/H44=KsK^J;#4)R<^ss<{V^R={H=;Hs4VH4/vw);R4J)K<#ss{K{{=#J=^HH;;RR){=<;)=<RVJRK{#=sJ/#K/V/Q:/;;#<){;HH^=VJ{=Vsq^#HsK/#K{;<Js;<;;VR{{^=Us/{=HJKK2#;H#/)4<V;nKJ{;=,J{^{HIK)-R^V/;)#<;s/RH{V/=JH^4=RK{:^;>4{)R<ssKR#=s//JK^V4=KHu;V<4K)=<kVeRR{V/KJ#^s4//;WV;;#H)#=<s{R^)s=RJR^44KK)psV/#4)VS#sHRHH</<J^^#4)/RJsVK#))s<^s4R4H==)J/;<4=K^UHV)#R)J:KsHRs{J/4J#;=4<K;JJHs#^)^=)s)RJHK/#Js{<44K#<=V)#;)A={sH{sH)/RJJ^O4#KV</V4/V{==Hs;RyH{/^JX;)K=KJ<KV##V{/=4sV^=/H/;G<;{4^KN<)VR{Js^=#ss^/{Y/VJJ;H4;<=<{V^#I{K=RsJ^KH#/sX/;44#)=<HV;#J)J=^sW^)/=;^4I)#KHssRKV^#4{H=;J<KRd;VJR<)H<^s=Rv{(/;{{=#J=^HH;VRR))s=^)/;=VJRK{#;{HJKKPV;J;V#V{=sK^R{#HH%/;{H8)<r#s<#/)R=Vs)^#H=/4JH;^4HK{)<s<#R{<{KrVRsHK/R,H;=;K4#KJ<=V4R=//sVRR^K/VJs;K4R)H<=sHR/)^//=^RVHJK/J^CK4A)4=<s/##R==#JR^HHHH^%#;K4{##)<<4R^{/=4s#RVs{R/{B/)JRRV<=K#bsV/#{)V==sH#R{{/{JR^F4=KRnJVKH#K==/sHRVH</HJ^;<HK=JvjV=#R)^=Ks#RsH/=;JV;<4HK#<<V{#^)!:ssRRJHK/#Js;<44KVJ;VH#;{<=)s^RJH)/R^0;K4#Ks<=V4#V{==Hs;^<H{/HJo;)4RKV^RV##s{/^7H#/sNH;#;H#H);Vs^K{/H<JV^IHRK^l/V^4V)K=HVJ^/{;/=J<;)4</lK^V^#K)^)sTHR4{s/K!<^;^s4/K#E;V=#;=VsHRKRs/HJ4^s4K)<-;s<#V))=V=)RHH#/VJ)Js4R)=<^VV#/#;=/JK^<H<H)p/^#4HK;)46fVH{R<JsV^KH4/<{4=4JK^#HsJ^#K)#==GT^H{VRK{H=dJ)^R<4s/#;{##<Ks<Vs=RHJZ;=#))HfVV<#4{{={J=<sV^R4{V/=s)KR4<K{z^;;#))R<JV=#={s/=J4^R4=KH6;^<4=)^<Js)R#{J/=J#R;{^K4WRV=#{);=<s{R^)R/)J#^J4<K#PsV/#4K<==sHR;H</{J#^o4)= BJVK##)V=/sHRVH=J4J;;<4{KRmlV)#R)J=Ks#Rs{J/4JV;=4)K=<<V{#^JK^{4#K^:<;)4;)R<Rs{k9{;#;{<={4//;p<;R4;4R)R<JR<HH={/K^-4//VEs;{#sKU<HsRR=H{=JJ)^K44KK7/gs#s)H<s=<;R{^/<JH;KHJ4<K{8;;J#))Js2RR{HH<I<;)4sK%SHVV#R);)sVz^=H{=s/H;/4^)K<{;;V));=VsRRRRs/sn=;^4V)H%#VJ#;)s<;J)^4H)/{c{^sHs4R<R;4RH)M=<sHRVHR/)/HJ;;=4)K^/cJ!;;#<){V/{;/<JRs44JK)H;/J94;V#=s8^^HKK<{^=4J)^RHJ/=#H;s#/)4<;s=RH{;<JV#^^HJK)C{;J#K)#Js;{R4{;/=J{^;HsK{J#^##))H<Js=R#{s//J4R44=K{,;;s#{)^<vs)#*{J/KJ#^s4/K{TVV=4=);=<s{RR{S/KJR^JK)K#&sV/#H)V==sHR;H</{J^^;4)KRNJV=#=)s=/s4{R%/;#4s);=/VH!s;^#R)J=K#0/YE/;/4#Hx==s)RF{4##)K=)sRRJ=^;^4sKs<KaRRRH{=sJR;<4HRs{^/RJJ;K/OV_R/{/=#<V^#44K;<=/RsR;)4RKJJKV4#s)J=4sV^=H)/;s<K;4^K;<)V{#J{/=#s4#{H4/HT=;)4;Kt<{VH#i{)J=sJ^KH#/VS/;44V)=VJV;R<{{=#s_^)HR/J;;;#4s)/<)VVR={H=;^#^{H^/Uv);R4J)K<#RVR/{K=Vs;^HH^K<s{;R48)<<RVJRK{{=sV//sHV/sqH;4#<))<^VR44{R=#JK^4HsK=v4;##=)HsKs<R{{^=JJ)^RHJKKV<;s#/)4<^s=RH{;/<^s^^HPK):R;J#K)#<sR^R4{V/=JK^;4<K{5^#J#)){<JVsR#{V//V4^;4=K/m;V<#{)H<(;)=t{J=xJ#^R4/KHkV;;HR);<^s{R^{Q/KJR^s4KK#V{V/#4)V=<sHR;H</{;R^L4<KR1#VK#4)s=/R#RVH=/HJ^;<4{K^bVV)#R)J=<s#RsH//{sQ;=4HK;^;{//{ssV;H;/JJJ;)RRKR<4s4dtV/#;{<={R{K=JN;VJV^44#Ks</4^=ssV^K4H{J%<;H4;){<;<s</;9#s{/=4;V/VHH/^_<;{4^KJ<);44V{K=Hss^<H4/V5=RHH4)<<KV^#s{)=#sJ#KH4/st<;44^)=<KV;#^)4=^sJ^)H=/J2/;#4;)/<K^;R={H=;s#^{HR/rG){R4J)/<#VsR/{4=VJ={JH;/k}{;^4())<RVJ{){#=sJ/^HHVK=5H;;#<){<^V{R){R=JJ=^/HsK/t4Hs=;J<R#H;/={#=^J)^RHJsJ;){)={={<^V)RH{;/<R#K;(^V=R)4==)s/^#H{K/JJ^sJ)RJ4<K{Q^H^==J)RV#^/^Js^s4K{#v#VHRH;J#<)^<Ts))Hb;V/4V)#4</e&VV=#HN;^=H/K=J;;;4^)<4=K)YsV/#4<4^KH=/J{J/)J^^A4)J=jVV<##)s=/HRK4J^/)J^;<4{K^^HVKHH)J=Ks#Rs///4J;;=4HK;<<V{#)=K=)s#RJ{ /#JV;/4HKVfs^{#;{<={sHR-HK/RJ^R/4#Ks</^{#V{<=H;;R:H{/RJN;)4RK^<K;H#K{/={sVR^HH/;6<R{4RKC</VR#V{K=)ss#/HH/VJ-;H4R)<</V^#R=^=Rss^K)H/sm=;44^)=</^^R<{{=^;s^)H#/JsK;44s)=<4VVR={<=;J<K2H^/sC);#4J)K<#VsR<{4=;J=^{H;/Jk{;^H4))<4VJR={#=sJ/R{{sK=iK;;4J){<^V64))V=JJ<^#H^K/JJ;V#=)=<;VVR{{4=uJ)^R)J=VI#;R#/)K<VVRRHK;=?J{^HHbK<rR;R#K)#V4s/R/{V=JJH^;4<={J=;>4f)R<RsKR<{s</s4^VHVKHfHV<#))^J8VKRR{#/KJ4^sH^K4LV;s#H)H=<s<R^{R/)JRRs4KK/9s;L#4)V==;H#<H<=}J^^R4)/2tJ^K#4)s<Vs4RHH=/=J;;
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+local Window = MakeWindow({
+    Hub = {
+        Title = "DEAD RAILS SCRIPT - KONMEO22132",
+        Animation = "By konmeo22132"
+    },
+    Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "Key: konmeo22132 (you can use the link\nto get key, it helps me a lot)",
+        KeyLink = "https://link-center.net/1239843/key-dead-rails",
+        Keys = {"konmeo22132"},
+        Notifi = {
+            Notifications = true,
+            CorrectKey = "Valid key - Running the Script...",
+            Incorrectkey = "Invalid key",
+            CopyKeyLink = "Copied to Clipboard"
+        }
+    }
+})
+
+MinimizeButton({
+    Image = "http://www.roblox.com/asset/?id=121832166458851",
+    Size = {60, 60},
+    Color = Color3.fromRGB(10, 10, 10),
+    Corner = true,
+    Stroke = false,
+    StrokeColor = Color3.fromRGB(255, 0, 0)
+})
+
+-- **Tạo Tabs**
+local Tab1o = MakeTab({Name = "Teleport"})
+local Tab2o = MakeTab({Name = "Local player"})
+
+-- **Thêm tính năng kéo UI**
+local UserInputService = game:GetService("UserInputService")
+
+local function makeDraggable(frame)
+    local dragging, dragStart, startPos
+
+    frame.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 then
+            dragging = true
+            dragStart = input.Position
+            startPos = frame.Position
+        end
+    end)
+
+    frame.InputChanged:Connect(function(input)
+        if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+            local delta = input.Position - dragStart
+            frame.Position = UDim2.new(
+                startPos.X.Scale, startPos.X.Offset + delta.X,
+                startPos.Y.Scale, startPos.Y.Offset + delta.Y
+            )
+        end
+    end)
+
+    frame.InputEnded:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 then
+            dragging = false
+        end
+    end)
+end
+
+-- **Hàm hiển thị bảng Donate**
+local function showDonateGui()
+    local player = game.Players.LocalPlayer
+    local gui = Instance.new("ScreenGui")
+    gui.Name = "DonateGui"
+    gui.Parent = player:WaitForChild("PlayerGui")
+
+    -- **Khung viền trắng có thể kéo**
+    local borderFrame = Instance.new("Frame")
+    borderFrame.Size = UDim2.new(0.3, 0, 0.4, 0)
+    borderFrame.Position = UDim2.new(0.68, 0, 0.12, 0)
+    borderFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    borderFrame.Active = true
+    borderFrame.Parent = gui
+
+    local borderCorner = Instance.new("UICorner")
+    borderCorner.CornerRadius = UDim.new(0.1, 0)
+    borderCorner.Parent = borderFrame
+
+    local frame = Instance.new("Frame")
+    frame.Size = UDim2.new(0.95, 0, 0.95, 0)
+    frame.Position = UDim2.new(0.025, 0, 0.025, 0)
+    frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    frame.BackgroundTransparency = 0.1
+    frame.Parent = borderFrame
+
+    local frameCorner = Instance.new("UICorner")
+    frameCorner.CornerRadius = UDim.new(0.1, 0)
+    frameCorner.Parent = frame
+
+    local titleLabel = Instance.new("TextLabel")
+    titleLabel.Size = UDim2.new(1, 0, 0.2, 0)
+    titleLabel.Text = "Thanks for using my script! You can donate me here:"
+    titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+    titleLabel.Font = Enum.Font.SourceSansBold
+    titleLabel.TextScaled = true
+    titleLabel.BackgroundTransparency = 1
+    titleLabel.TextWrapped = true
+    titleLabel.Parent = frame
+
+    local infoLabel = Instance.new("TextLabel")
+    infoLabel.Size = UDim2.new(0.9, 0, 0.5, 0)
+    infoLabel.Position = UDim2.new(0.05, 0, 0.25, 0)
+    infoLabel.Text = "Thesieure: konmeo\nBank: 0334182566 (MB BANK)\nDiscord: konmeo22132\nServer: discord.gg/huneipa"
+    infoLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+    infoLabel.Font = Enum.Font.SourceSans
+    infoLabel.TextScaled = true
+    infoLabel.TextWrapped = true
+    infoLabel.BackgroundTransparency = 1
+    infoLabel.TextXAlignment = Enum.TextXAlignment.Left
+    infoLabel.Parent = frame
+
+    local closeButton = Instance.new("TextButton")
+    closeButton.Size = UDim2.new(0.35, 0, 0.15, 0)
+    closeButton.Position = UDim2.new(0.325, 0, 0.85, 0)
+    closeButton.Text = "Đóng/Close"
+    closeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    closeButton.Font = Enum.Font.SourceSansBold
+    closeButton.TextScaled = true
+    closeButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+    closeButton.Parent = frame
+
+    local closeCorner = Instance.new("UICorner")
+    closeCorner.CornerRadius = UDim.new(0.3, 0)
+    closeCorner.Parent = closeButton
+
+    local donateButton = Instance.new("TextButton")
+    donateButton.Size = UDim2.new(0.12, 0, 0.06, 0)
+    donateButton.Position = UDim2.new(0.86, 0, 0.93, 0)
+    donateButton.Text = "Donate me"
+    donateButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    donateButton.Font = Enum.Font.SourceSansBold
+    donateButton.TextScaled = true
+    donateButton.BackgroundColor3 = Color3.fromRGB(0, 122, 255)
+    donateButton.Visible = false
+    donateButton.Active = true
+    donateButton.Parent = gui
+
+    local donateCorner = Instance.new("UICorner")
+    donateCorner.CornerRadius = UDim.new(0.3, 0)
+    donateCorner.Parent = donateButton
+
+    local canClose = false
+    task.spawn(function()
+        for i = 10, 1, -1 do
+            closeButton.Text = "Đóng/Close (" .. i .. "s)"
+            task.wait(1)
+        end
+        canClose = true
+        closeButton.Text = "Đóng/Close"
+    end)
+
+    closeButton.MouseButton1Click:Connect(function()
+        if canClose then
+            borderFrame.Visible = false
+            donateButton.Visible = true
+        end
+    end)
+
+    donateButton.MouseButton1Click:Connect(function()
+        borderFrame.Visible = true
+        donateButton.Visible = false
+    end)
+
+    -- **Bật tính năng kéo**
+    makeDraggable(borderFrame) 
+    makeDraggable(donateButton) 
+end
+
+-- **Thêm nút Donate vào giao diện**
+AddButton(Tab1o, {
+    Name = "Donate me",
+    Callback = function()
+        showDonateGui()
+    end
+})
+
+AddButton(Tab2o, {
+    Name = "Full bright",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Konmeo22132-alt/konmeo_hub/refs/heads/main/full%20bright"))()
+  end
+  })
+
+AddButton(Tab2o, {
+    Name = "Aim bot(lock cam)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Konmeo22132-alt/deadrail/refs/heads/main/dead_rails_aimbot-by_konmeo22132"))()
+  end
+  })
+
+AddButton(Tab2o, {
+    Name = "Inf jump ( maybe bug, idc) ",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Konmeo22132-alt/konmeo_hub/refs/heads/main/inf_jump"))()
+  end
+  })
+  
+AddButton(Tab2o, {
+    Name = "FPS boost (Some block cant revome texture) ",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Konmeo22132-alt/konmeo_hub/refs/heads/main/fps%20boost"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+    Name = "Tele to 80km(If failed,click again) ",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Konmeo22132-alt/konmeo_hub/refs/heads/main/80km"))()
+  end
+  })
